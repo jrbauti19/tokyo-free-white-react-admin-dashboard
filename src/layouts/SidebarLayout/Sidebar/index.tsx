@@ -3,20 +3,19 @@ import Scrollbar from 'src/components/Scrollbar';
 import { SidebarContext } from 'src/contexts/SidebarContext';
 
 import {
-  Box,
-  Drawer,
   alpha,
-  styled,
-  Divider,
-  useTheme,
+  Box,
   Button,
-  lighten,
   darken,
-  Tooltip
+  Divider,
+  Drawer,
+  lighten,
+  styled,
+  useTheme
 } from '@mui/material';
 
-import SidebarMenu from './SidebarMenu';
 import Logo from 'src/components/LogoSign';
+import SidebarMenu from './SidebarMenu';
 
 const SidebarWrapper = styled(Box)(
   ({ theme }) => `
@@ -80,15 +79,7 @@ function Sidebar() {
           }}
         />
         <Box p={2}>
-          <Button
-            href="https://bloomui.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            variant="contained"
-            color="warning"
-            size="small"
-            fullWidth
-          >
+          <Button variant="contained" color="warning" size="small" fullWidth>
             Upgrade to PRO
           </Button>
         </Box>
