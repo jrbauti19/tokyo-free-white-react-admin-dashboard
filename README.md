@@ -32,10 +32,6 @@ You can customize the color scheme and style by editing a single variables files
 We’ve included a few page examples for most used user flows that will give you a solid base for getting started with your new project’s development. With very light modifications you can even integrate Tokyo Free White Typescript Dashboard into existing projects giving them a much deserved makeover.
 </p>
 
----
-<h3>Updrade to PRO</h3>
-
-<p>If you're looking for more features like translations, complex user flows, redux examples and more,  we recommend taking a look at the premium version (Tokyo White Typescript Dashboard) on <a href="https://bloomui.com">bloomui.com</a></p>
 
 ---
 
